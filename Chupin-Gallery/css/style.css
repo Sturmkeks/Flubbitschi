@@ -1,0 +1,44 @@
+#change-chupin {
+    width: 800px;
+    border: 3px solid black;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.roll-dice, #previous, #next {
+    font-size: 80px;
+    background-color: white;
+    border: 0;
+    outline: 3px solid black;
+    padding: 85px 100px;
+}
+
+.wrap {
+    display: flex;
+}
+
+#previous, #next {
+    width: 50%;
+    padding: 50px;
+}
+
+#previous:hover, #next:hover {
+    cursor: pointer;
+    background-image: url("../img/paw.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.roll-dice:hover {
+    cursor: pointer;
+    background-image: url("../img/bild004.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+body {
+    background-image: url("../img/background.png");
+}
