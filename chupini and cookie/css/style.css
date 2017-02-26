@@ -1,0 +1,45 @@
+.img1 {
+    border: 3px solid black;
+}
+.img2 {
+    position: absolute;
+    left: 121px;
+	top: 203px;
+	transform: rotate(-28deg);
+    display: none;
+}
+.relative {
+    position: relative;
+}
+.flexi1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexi2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button1, .button2 {
+    font-weight: bolder;
+    padding: 5px 10px;
+    color: black;
+    border: 3px solid black;
+    font-size: 15pt;
+    background-color: white;
+    margin: 6px 3px;
+}
+
+.button1:hover, .button2:hover {
+    color: rgb(156,108,59);
+    cursor: pointer;
+}
+
+.button1:focus, .button2:focus {
+    outline: 2px solid rgb(156,108,59);
+}
+#headline {
+    text-align: center;
+}
