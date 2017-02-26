@@ -42,3 +42,14 @@
 body {
     background-image: url("../img/background.png");
 }
+
+
+@media only screen and (max-width: 1400px) {
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .dice-wrapper {
+        margin-bottom: 40px;
+    }
+}
