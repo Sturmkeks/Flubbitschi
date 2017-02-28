@@ -1,0 +1,62 @@
+.ersteskaestchen, .zweiteskaestchen {
+    border: 1px solid rgb(204, 135, 69);
+}
+
+.zweiteskaestchen {
+    display: none;
+    width: 560px;
+}
+
+.ersteskaestchen {
+    text-align: center;
+    color: rgb(204, 135, 69);
+    letter-spacing: 3px;
+    padding: 100px;
+    background-image: url('../img/banner.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+.img1, .img2 {
+    width: 50px;
+}
+
+.kaestchen {
+    width: 560px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ersteskaestchen, .zweiteskaestchen {
+    margin: 0 auto;
+}
+
+.buttons {
+    width: 560px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons.hidden {
+    display: none;
+}
+
+.like-container, .dislike-container {
+    position: relative;
+}
+
+.counter {
+    position: absolute;
+    bottom: -25px;
+    left: 31px;
+}
+
+button:hover {
+    cursor: pointer;
+    outline: 1px solid #6475AB;
+}
+
+.ersteskaestchen:hover {
+    cursor: pointer;
+    outline: 1px solid rgb(204, 135, 69);
+}

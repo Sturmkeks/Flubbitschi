@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>picture slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="logowrapper"><img class="logo" src="img/logo.png" alt="logo"></div>
+        <hr class="horizontalline">
+        <nav>
+            <div class="navigation">
+                <a href="https://www.google.at/" target="_blank">HOME</a>
+                <a href="https://www.gmx.at/" target="_blank">PRODUCTS</a>
+                <a href="https://www.facebook.com/" target="_blank">ABOUT US</a>
+                <a href="https://www.amazon.de/" target="_blank">CONTACT</a>
+            </div>
+            <hr class="horizontalline">
+        </nav>
+    </header>
+    <main>
+        <h1>AUTOMATISCHER SLIDER:</h1>
+        <div class="slidingpicturewrapper">
+            <img class="slidingpicture" src="img/picture001.jpg" width="400">
+            <img class="slidingpicture" src="img/picture002.jpg" width="400">
+            <img class="slidingpicture" src="img/picture003.jpg" width="400">
+            <img class="slidingpicture" src="img/picture004.jpg" width="400">
+            <img class="slidingpicture" src="img/picture005.jpg" width="400">
+            <img class="slidingpicture" src="img/picture006.jpg" width="400">
+        </div>
+        <hr class="horizontalline1">
+        <h1>MANUELLER SLIDER:</h1>
+        <div class="slidingpicturewrapper2">
+            <div class="slidingpicturewrapper1">
+                <img class="slidingpicture1" src="img/picture001.jpg" width="300">
+                <img class="slidingpicture1" src="img/picture002.jpg" width="300">
+                <img class="slidingpicture1" src="img/picture003.jpg" width="300">
+                <img class="slidingpicture1" src="img/picture004.jpg" width="300">
+                <img class="slidingpicture1" src="img/picture005.jpg" width="300">
+                <img class="slidingpicture1" src="img/picture006.jpg" width="300">
+            </div>
+            <div class="buttons">
+                <button type="button" class="zurueck" onclick="plusDivs(-1)">ZURÜCK</button>
+                <button type="button" class="weiter" onclick="plusDivs(+1)">WEITER</button>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

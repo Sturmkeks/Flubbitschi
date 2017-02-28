@@ -1,0 +1,77 @@
+.logo {
+    width: 200px;
+}
+
+.logowrapper, .slidingpicturewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontalline {
+    border: none;
+    border-top: 3px solid #94BF54;
+    margin: 30px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0 8px;
+}
+
+.navigation a:hover {
+    background-color: #94BF54;
+}
+
+.slidingpicture {
+    display: none;
+}
+
+.slidingpicturewrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.zurueck, .weiter {
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+h1 {
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.zurueck:hover, .weiter:hover {
+    background-color: #94BF54;
+    cursor: pointer;
+}
+
+.horizontalline1 {
+    border: none;
+    border-top: 2px solid #94BF54;
+    margin: 50px 100px;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
