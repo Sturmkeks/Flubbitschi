@@ -1,5 +1,7 @@
 $(document).ready(function() {
     var currentChupin = 1;
+    var firstChupin = 1;
+    var lastChupin = 6;
 
     $('.roll-dice').on('click', function() {
         var random = Math.floor((Math.random() * 6 + 1));
@@ -13,11 +15,9 @@ $(document).ready(function() {
             $('#change-chupin').attr('src', 'img/bild00' + previousChupin + '.jpg');
             currentChupin--;
         } else {
-            window.alert('Beginning of Chupas reached');
+            $('#change-chupin').attr('src', 'img/bild00' + lastChupin + '.jpg');
+            currentChupin = lastChupin;
         }
-
-
-        // if abfrage, falls currentChupin == 1
     });
 
     $('#next').on('click', function() {
@@ -26,9 +26,8 @@ $(document).ready(function() {
             $('#change-chupin').attr('src', 'img/bild00' + nextChupin + '.jpg');
             currentChupin++;
         } else {
-            window.alert('End of Chupas reached');
+            $('#change-chupin').attr('src', 'img/bild00' + firstChupin + '.jpg');
+            currentChupin = firstChupin;
         }
-
-        // if abfrage, falls currentChupin == 6
     });
 });
